@@ -281,6 +281,7 @@ else
   \ "    public function %funcname%($%varname%)\n" .
   \ "    {\n" .
   \ "        $this->%varname% = $%varname%;\n" .
+  \ "        return $this;\n" .
   \ "    }"
 endif
 
